@@ -1,13 +1,18 @@
+import React, {Component} from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Conversor from './src/components/Conversor';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Conversor moedaA="USD" moedaB="BRL" />
+        <StatusBar style="auto" />
+      </View>
+    )
+  }
 }
 
 const styles = StyleSheet.create({
@@ -18,3 +23,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default App
