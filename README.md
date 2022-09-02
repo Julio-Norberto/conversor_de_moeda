@@ -27,3 +27,5 @@ Para instalar o projeto na sua máquina rode os comandos: (Este projeto foi feit
 
 
 Publicação do vídeo no Linkedin: [Conversor de Moeda](https://www.linkedin.com/posts/julio-norberto_o-projeto-de-hoje-com-react-native-um-conversor-activity-6969825922816335872-h9oA?utm_source=share&utm_medium=member_desktop)
+
+[link da API](https://free.currencyconverterapi.com/)
